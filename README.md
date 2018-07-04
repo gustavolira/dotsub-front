@@ -1,10 +1,10 @@
-#How to run
+# How to run
 
-##Build image
+## Build image
 
 `docker build -t dotsub-front .`
 
-##Run image (make sure port 80 is not in use)
+## Run image (make sure port 80 is not in use)
 `docker run -p 80:80 dotsub-front`
 
 Open your browser in http://localhost
